@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<header id="body-header">
+    <nav>
+        <ul class=" no-bullets text-center nav-menu">
+            <li>
+                <a href="#Home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#Skills">Skills</a>
+            </li>
+            <li>
+                <a href="#experince">Experince</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="name-social-container">
+        <div class="text-center">
+            <h1 id="my-name">
+                Krishna Kumar
+            </h1>
+        </div>
+        <div>
+            <ul class="no-bullets text-center social-icons">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-stack-overflow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="about">
+        <div id="my-image">
+            <img src="kri.jpg">
+        </div>
+        <div id="about-para">
+            <p>
+                Yo everyone, it's Krishna.Dude who's all about that hustle and enjoying life to the fullest. Music runs through my veins, and you can often catch me jamming on my guitar, spreading good vibes. I'm always up for new adventures and meeting cool people. Let's connect and share our epic stories, bro!"
+            </p>
+        </div>
+    </section>
+    <section id="Skills">
+        <h1 class="section-heading">
+            <span>
+                <i class="fas fa-chalkboard-teacher"></i>
+            </span>
+            <span>SKILLS</span>
+        </h1>
+
+   <div class="skill-display">
+    <div class="skill-progress">
+        <div class="eighty-percent mb-blue">
+            <div class="skill-name">
+                <span>HTML</span>
+            </div>
+        </div>
+    </div>
+    <div class="skill-progress">
+        <div class="fifty-percent mb-orange">
+            <div class="skill-name">
+                <span>CSS</span>
+            </div>
+        </div>
+    </div>
+    <div class="skill-progress">
+        <div class="seventy-percent mb-light-purple"> 
+            <div class="skill-name">
+                <span>Javascript</span>
+            </div>
+        </div>
+    </div>
+    <div class="skill-progress">
+        <div class="thirty-percent mb-red">
+            <div class="skill-name">
+                <span>Reactjs</span>
+            </div>
+        </div>
+    </div>
+   </div>
+    </section>
+    <section id="education">
+        <h1 class="education-heading">
+            <span>
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            <span>Education</span>
+        </h1>
+        </section>
+        <div class="education-text">
+            <h2>
+                BCA
+            </h2>
+            <p>
+                CHITKARA UNIVERSITY
+            </p>
+            <p1>
+                Month2023-Month2026
+            </p1>
+            <p2>
+                In Chitkara University, many companies like Lenovo, Samsung, Nokia, Wipro, HCl, Dell, etc., are visiting the campus for recruitment. It is a good university in terms of placements. Placements: Almost 95% of students got placed with a good salary package. The highest salary package offered by Microsoft is 40 LPA.
+            </p2>
+            
+        
+           </div>
+         
+        <div class="education-img">
+            <img src="rrk.jpg" height="1000px" width="150px ">
+        </div>
+        <div class="education-text1">
+            <h3>
+                MCA
+            </h3>
+            <p> 
+                CHITKARA UNIVERSITY
+            </p>
+            <p1>
+                Month2023-Month2026
+            </p1>
+            <p2>
+                The two-year Master of Computer Applications (MCA) degree at Chitkara University provides a comprehensive path to IT excellence. It provides in-depth knowledge of computer fundamentals, corporate software administration, and current business processes
+            </p2>
+        </div>
+        <div class="education-text2">
+            <h2>
+                B.TECH
+            </h2>
+            <p>
+                CHITKARA UNIVERSITY
+            </p>
+            <p1>
+                Month2023-Month2026
+            </p1>
+            <p2>
+                It provides a great opportunity for students to become familiar with the work environment of companies. They excel in placement and ensure that each child is placed with a minimum stipend of 15k. The per semester fee for CSE students is 80000. There are no opportunities for scholarships.
+            </p2>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h1 class="portfolio-heading">
+            <span>
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <span>Portfolio</span>
+        </h1>
+        <div class="flex-container">
+            <div><img src="pk.jpg"></div>
+            <div><img src="pk.jpg"></div>
+            <div><img src="pk.jpg"></div>
+            <div><img src="kp.jpg"></div>
+            <div><img src="kp.jpg"></div>
+            <div><img src="kp.jpg"></div>
+           
+          </div>
+        </section>
+    <section id="contact" class="mb75">
+        <h1 class="section-heading" id="contact-heading">
+          <span>
+            <i class="far fa-address-card"></i>
+          </span>
+     
+
+          <span>Contact</span>
+        </h1>
+        <div id="contact-container">
+          <div id="contact-form-container">
+            <form action="" id="contact-form">
+              <input
+                id="input-name"
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                required
+              />
+              <input
+                type="email"
+                id="input-email"
+                placeholder="abc@gmail.com"
+                required
+              />
+              <textarea
+                name=""
+                id="input-message"
+                cols="30"
+                rows="2"
+                placeholder="Message"
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          <div id="my-details-container">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+              hic! Tempore architecto quia quis corporis fuga molestias, dolor
+              sit quisquam at dolores quibusdam laudantium beatae quam corrupti.
+              Laudantium, possimus aut?
+            </p>
+
+            <h3>My Address</h3>
+            <div class="my-details-info-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Delhi, India</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fas fa-mobile"></i>
+              <span>9999999999</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fas fa-envelope"></i>
+              <span>abc@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
